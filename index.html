@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShiSushi</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="#home" class="navbar-logo">
+                <img src="asset/logo.png" alt="shisushi"></a>
+        <nav class="navbar-list">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#products">Menu</a></li>
+                <li><a href="#customers">Review</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="extra">
+            <!-- <a href="Get ShiSushi.html" class="get_sushi">Get Your ShiSushi</a> -->
+            <div class="search">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="like">
+                <i class='bx bxs-heart'></i>
+            </div>
+            <div class="shopping">
+                <i class='bx bxs-cart'></i>
+                <!-- <div class="totalQuantity">0</div> -->
+                <span class="totalQuantity">0</span>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <section class="home" id="home">
+            <div class="circle"></div>
+            <div class="textBox">
+                <h1><span class="brand">SHI</span> SUSHI</h1>
+                <h2>"The taste of sushi perfection"</h2>
+                <p>Where every bite is a symphony of fresh,<br>
+                perfectly crafted flavors, transporting you <br> to the culinary heights of Japan.</p>
+                <a href="#categories">Explore More</a>
+                <div class="imgBox">
+                    <img src="asset/sushi.png" class="sushi" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="circle2"></div>
+            <div class="textBox">
+                <h1>About <span class="brand">Us</span></h1>
+                <p> <span class="brand">ShiSushi </span>is a Japanese restaurant specializing in delicious sushi made from fresh ingredients.  
+                <br>We strive to provide a wonderful dining experience and bring the authentic flavors 
+                <br>of Japan to our customers while promoting sustainability.
+                </p>
+            
+                <table class="custom-table">
+                    <tr>
+                        <td class="title1"><span class="block">Established</span><br><span class="title">since 2002</span></td>
+                        <td rowspan="2">
+                            <div class="imgBox">
+                                <img src="asset/about.png" class="sushi" alt="">
+                            </div>
+                        </td>
+                        <td class="title2"><span class="block">Founded</span>
+                            <br><span class="title">by INSpire</span></td>
+                    </tr>
+                    <tr>
+                        <td class="title2"><span class="block">Branches</span><br><span class="title">over 1000 Branches Worldwide</span></td>
+                        <td class="title1"><span class="block">Menu</span><br><span class="title">from Vegan Options to Irresistible Delights</span></td>
+                    </tr>   
+                </table>
+            </div>
+        </section>
+
+        <section class="categories" id="categories">
+            <div class="heading">
+                <h1>Browse Our Hottest<br><span class="browse">Categories</span></h1>
+                    <a href="#" class="btn">See All<i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+            <div class="wrapper">
+                <div class="carousel-container">
+                    <i id="left" class="fa-solid fa-angle-left"></i>
+                    <ul class="carousel">
+                        <li class="categories-box">
+                            <a href="#">
+                                <div class="img"><img src="asset/sashimi.png" alt="img" draggable="false"></div>
+                                <h2>Sashimi</h2>
+                                <span>20 Items</span>
+                                <a href="#" class="bx bx-right-arrow-alt"></a>
+                            </a>
+
+                        </li>
+                        <li class="categories-box">
+                            <a href="#">
+                                <div class="img"><img src="asset/maki.png" alt="img" draggable="false"></div>
+                                <h2>Maki Sushi</h2>
+                                <span>20 Items</span>
+                                <a href="#" class="bx bx-right-arrow-alt"></a>
+                            </a>
+
+                        </li>
+                        <li class="categories-box">
+                            <a href="#">
+                                <div class="img"><img src="asset/nigiri.png" alt="img" draggable="false"></div>
+                                <h2>Nigiri Sushi</h2>
+                                <span>20 Items</span>
+                                <a href="#" class="bx bx-right-arrow-alt"></a>
+                            </a>
+                        </li>
+                        <li class="categories-box">
+                            <a href="#">
+                                <div class="img"><img src="asset/vegan2.png" alt="img" draggable="false"></div>
+                                <h2>Vegan Sushi</h2>
+                                <span>20 Items</span>
+                                <a href="#" class="bx bx-right-arrow-alt"></a>
+                            </a>
+                        </li>
+                        <li class="categories-box">
+                            <a href="#">
+                                <div class="img"><img src="asset/3.png" alt="img" draggable="false"></div>
+                                <h2>Uramaki Suhsi</h2>
+                                <span>20 Items</span>
+                                <a href="#" class="bx bx-right-arrow-alt"></a>
+                            </a>
+                        </li>
+                        <li class="categories-box">
+                            <a href="#">
+                                <div class="img"><img src="asset/temaki_sushi.png" alt="img" draggable="false"></div>
+                                <h2>Temaki Sushi</h2>
+                                <span>20 Items</span>
+                                <a href="#" class="bx bx-right-arrow-alt"></a>
+                            </a>
+                        </li>
+                        <li class="categories-box">
+                            <a href="#">
+                                <div class="img"><img src="asset/gunkansu.jpg" alt="img" draggable="false"></div>
+                                <h2>Gunkan Sushi</h2>
+                                <span>20 Items</span>
+                                <a href="#" class="bx bx-right-arrow-alt"></a>
+                            </a>
+                        </li>
+                        <li class="categories-box">
+                            <a href="#">
+                                <div class="img"><img src="asset/custom.jpg" alt="img" draggable="false"></div>
+                                <h2>Custom Sushi</h2>
+                                <span>20 Items</span>
+                                <a href="#" class="bx bx-right-arrow-alt"></a>
+                            </a>
+                            
+                        </li>
+                    </ul>
+                    <i id="right" class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
+        </section>
+
+
+        
+        <section class="products" id="products">
+            <div class="heading">
+                <h1>Our Popular<br><span class="popular">Menu</span></h1>
+                    <a href="#" class="btn">Shop Now<i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+            <div class="products-container" id="products-container">
+                 <div class="box">
+                    <img src="asset/1.png" alt="menu">
+                    <span>Sashimi</span>
+                    <h2>Salmon Sashimi<br>sushi 250gr</h2>
+                    <h3 class="price">$10.99<span>/plate</span></h3>
+                    <i class='bx bx-cart'></i>
+                    <i class='bx bx-heart'></i>
+                    <span class="discount">-50%</span>
+                </div>        
+                <div class="box">
+                    <img src="asset/9.png" alt="menu">
+                    <span>Sushi Bowl</span>
+                    <h2>Nigiri + Maki Sushi<br>sushi 250gr</h2>
+                    <h3 class="price">$12.99<span>/plate</span></h3>
+                    <i class='bx bx-cart'></i>
+                    <i class='bx bx-heart'></i>
+                    <span class="discount">-25%</span>
+                </div>
+                <div class="box">
+                    <img src="asset/vegan.png" alt="menu">
+                    <span>Vegan Sushi</span>
+                    <h2>Kani Maki Sushi<br>sushi 250gr</h2>
+                    <h3 class="price">$8.99<span>/plate</span></h3>
+                    <i class='bx bx-cart'></i>
+                    <i class='bx bx-heart'></i>
+                    <span class="discount">-45%</span>
+                </div>
+                <div class="box">
+                    <img src="asset/mix.png" alt="menu">
+                    <span>Sashimi Sushi</span>
+                    <h2>Mix Sashimi Sushi<br>sushi 250gr</h2>
+                    <h3 class="price">$9.99<span>/plate</span></h3>
+                    <i class='bx bx-cart'></i>
+                    <i class='bx bx-heart'></i>
+                    <span class="discount">-35%</span>
+                </div>
+                <div class="box">
+                    <img src="asset/5.png" alt="menu">
+                    <span>Nigiri Sushi</span>
+                    <h2>Mix Nigiri Sushi<br>sushi 250gr</h2>
+                    <h3 class="price">$7.99<span>/plate</span></h3>
+                    <i class='bx bx-cart'></i>
+                    <i class='bx bx-heart'></i>
+                    <span class="discount">-25%</span>
+                </div>
+                <div class="box">
+                    <img src="asset/7.png" alt="menu">
+                    <span>Sushi Plate</span>
+                    <h2>Nigiri + Maki Sushi<br>sushi 250gr</h2>
+                    <h3 class="price">$12.99<span>/plate</span></h3>
+                    <i class='bx bx-cart'></i>
+                    <i class='bx bx-heart'></i>
+                    <span class="discount">-15%</span>
+                </div>
+            </div>
+        </section>
+        <section class="slide">
+            <div class="slider">
+                <figure>
+                    <img src="asset/s1.png" alt="#">
+                    <img src="asset/s2.png" alt="#">
+                    <img src="asset/s3.png" alt="#">
+                    <img src="asset/s4.png" alt="#">
+                    <img src="asset/s5.png" alt="#">
+                    <img src="asset/s1.png" alt="#">
+                    <img src="asset/s2.png" alt="#">
+                    <img src="asset/s3.png" alt="#">
+                    <img src="asset/s4.png" alt="#">
+                    <img src="asset/s5.png" alt="#">
+                    <img src="asset/s1.png" alt="#">
+                    <img src="asset/s2.png" alt="#">
+                    <img src="asset/s3.png" alt="#">
+                    <img src="asset/s4.png" alt="#">
+                    <img src="asset/s5.png" alt="#">
+                </figure>
+            </div>
+        </section>
+        
+        <section class="customers" id="customers">
+            <h1>Review</h1>
+            <h2>What Our Customers Say?</h2>
+            <div class="swiper reviews-slider">
+                <!-- <i id="left" class="fa-solid fa-angle-left"></i>
+                <i id="right" class="fa-solid fa-angle-right"></i> -->
+                <div class="swiper-wrapper customers-container">
+                            <div class="swiper-slide box-review">
+                                <i class='bx bxs-quote-alt-left'></i>
+                                <div class="stars">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star-half' ></i>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla porro perspiciatis aliquid quidem saepe eos asperiores, maiores laudantium explicabo non! Eveniet facere inventore quibusdam provident ullam quo ea porro consectetur.</p>
+                                <div class="review-profile">
+                                    <img src="asset/g1.png" alt=""></img>
+                                    <h3>Jordan Smith</h3>
+                                </div>
+                            </div>
+                            <!-- cus 2 -->
+                            <div class="swiper-slide box-review">
+                                <i class='bx bxs-quote-alt-left'></i>
+                                <div class="stars">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla porro perspiciatis aliquid quidem saepe eos asperiores, maiores laudantium explicabo non! Eveniet facere inventore quibusdam provident ullam quo ea porro consectetur.</p>
+                                <div class="review-profile">
+                                    <img src="asset/g2.png" alt=""></img>
+                                    <h3>Samantha Rich</h3>
+                                </div>
+                            </div>
+                            <!-- cus 3 -->
+                            <div class="swiper-slide box-review">
+                                <i class='bx bxs-quote-alt-left'></i>
+                                <div class="stars">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star-half' ></i>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla porro perspiciatis aliquid quidem saepe eos asperiores, maiores laudantium explicabo non! Eveniet facere inventore quibusdam provident ullam quo ea porro consectetur.</p>
+                                <div class="review-profile">
+                                    <img src="asset/g3.png" alt=""></img>
+                                    <h3>Alex Net</h3>
+                                </div>
+                            </div>
+                            <!-- cus 4 -->
+                            <div class="swiper-slide box-review">
+                                <i class='bx bxs-quote-alt-left'></i>
+                                <div class="stars">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla porro perspiciatis aliquid quidem saepe eos asperiores, maiores laudantium explicabo non! Eveniet facere inventore quibusdam provident ullam quo ea porro consectetur.</p>
+                                <div class="review-profile">
+                                    <img src="asset/g4.png" alt=""></img>
+                                    <h3>Sofia Martinez</h3>
+                                </div>
+                            </div>
+                            <div class="swiper-slide box-review">
+                                <i class='bx bxs-quote-alt-left'></i>
+                                <div class="stars">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star-half' ></i>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla porro perspiciatis aliquid quidem saepe eos asperiores, maiores laudantium explicabo non! Eveniet facere inventore quibusdam provident ullam quo ea porro consectetur.</p>
+                                <div class="review-profile">
+                                    <img src="asset/g5.png" alt=""></img>
+                                    <h3>Paul Ranger</h3>
+                                </div>
+                            </div>
+                            <div class="swiper-slide box-review">
+                                <i class='bx bxs-quote-alt-left'></i>
+                                <div class="stars">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla porro perspiciatis aliquid quidem saepe eos asperiores, maiores laudantium explicabo non! Eveniet facere inventore quibusdam provident ullam quo ea porro consectetur.</p>
+                                <div class="review-profile">
+                                    <img src="asset/g6.png" alt=""></img>
+                                    <h3>Lily Lee</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="cart">
+            <h2>
+                Cart
+            </h2>
+    
+            <div class="listCart">
+    
+    
+                <div class="item">
+                    <img src="asset/1.png">
+                    <div class="content">
+                        <div class="name">CoPilot / Black / Automatic</div>
+                        <div class="price">$550 / 1 product</div>
+                    </div>
+                    <div class="quantity">
+                        <button class="quantity-button">-</button>
+                        <span class="value">3</span>
+                        <button class="quantity-button">+</button>
+                    </div>
+                </div>
+    
+    
+            </div>
+    
+            <div class="buttons">
+                <div class="close">
+                    Close
+                </div>
+                <div class="checkout">
+                    <a href="checkout.html">Get Your ShiSushi</a>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="card">
+            <h1>Card</h1>
+            <ul class="listCard">
+            </ul>
+            <div class="checkOut">
+                <div class="total">0</div>
+                <div class="closeShopping">Close</div>
+            </div>
+        </div> -->
+    </main>
+    <footer>
+        <section class="footer" id="contact">
+            <div class="footer-box">
+                <a href="#home" class="navbar-logo">
+                    <img src="asset/logo.png" alt="shisushi"></a>
+                    <p>Foodvile, 20 th Street, 2th<br>Floor, NYC 10022</p>
+                    <div class="social">
+                        <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>   
+                        <a href="#"><i class='bx bxl-instagram-alt'></i></a>   
+                        <a href="#"><i class='bx bxl-youtube'></i></a>    
+                        <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                    </div>
+            </div>
+            <div class="footer-box">
+                <h2>Opening Hour<div class="underline"><span></span></div></h2>
+                    <a href="#">Mon-Fri : 09:00 AM - 10:00PM</a>
+                    <a href="#">Saturday: 09:00 AM - 11:00 PM</a>
+                    <a href="#">Sunday  : Closed</a>
+            </div>
+            <div class="footer-box">
+                <h2>Contact<div class="underline"><span></span></div></h2>
+                <a href="#"><i class="fa-solid fa-location-dot"></i> Foodvile, Deliciousland 10022</a>
+                <a href="#"><i class="fa-solid fa-phone"></i> +1259 6541234</a>
+                <a href="#"><i class="fa-solid fa-envelope"></i> shisushi@outlook.com</a>
+            </div>
+            <div class="footer-box">
+                <h2>Newsletter<div class="underline"><span></span></div></h2>
+                <p>Get 10% Discount with <br>Email Newsletter</p>
+                <form action="" onsubmit="return validateForm()">
+                    <i class='bx bxs-envelope'></i>
+                    <input type="email" name="" id="" placeholder="Enter Your Email" required>
+                    <button type="submit"><i class='bx bx-right-arrow-alt'></i></i></button>
+                </form>
+            </div>
+        </section>
+        <div class="copyright">
+            <p>&copy; Copyright 2023 ShiSushi | All Rights Reserved</p>
+        </div>  
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>

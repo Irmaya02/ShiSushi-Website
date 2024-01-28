@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "type": "Sashimi",
+        "name": "Salmon Sashimi",
+        "description": "Sushi 250gr",
+        "price": 10.99,
+        "discount": 50,
+        "image": "asset/1.png"
+    },
+    {
+        "id": 2,
+        "type": "Sushi Bowl",
+        "name": "Nigiri + Maki Sushi",
+        "description": "Sushi 250gr",
+        "price": 12.99,
+        "discount": 20,
+        "image": "asset/9.png"
+    },
+    {
+        "id": 3,
+        "type": "Vegan Sushi",
+        "name": "Avocade Maki Sushi",
+        "description": "Sushi 250gr",
+        "price": 8.99,
+        "discount": 45,
+        "image": "asset/vegan.png"
+    },
+    {
+        "id": 4,
+        "type": "Sashimi Sushi",
+        "name": "Mix Sashimi Sushi",
+        "description": "Sushi 250gr",
+        "price": 9.99,
+        "discount": 35,
+        "image": "asset/mix.png"
+    },
+    {
+        "id": 5,
+        "type": "Nigiri Sushi",
+        "name": "Mix Nigiri Sushi",
+        "description": "Sushi 250gr",
+        "price": 7.99,
+        "discount": 25,
+        "image": "asset/5.png"
+    },
+    {
+        "id": 6,
+        "type": "Sushi Plate",
+        "name": "Nigiri + Maki Sushi",
+        "description": "Sushi 250gr",
+        "price": 12.99,
+        "discount": 15,
+        "image": "asset/7.png"
+    }
+]
